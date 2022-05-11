@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+#include <stdlib.h>
+
+using namespace std;
+
+int main(){
+	
+    char palabra[] ="014JANL";
+    
+    int numero, suma, respuesta;
+    
+    numero=atoi(palabra);
+    cout<<numero<<endl;
+    
+    suma= numero+numero;
+    respuesta=suma;
+    
+    cout<<respuesta<<endl;
+    
+    getch();
+    return 0;   
+}
